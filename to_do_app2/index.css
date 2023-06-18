@@ -1,0 +1,45 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.app{
+    width:500px;
+    height:500px;
+    border:2px solid lightgreen;
+    border-radius: 10px;
+    overflow-y:auto;
+    
+    
+}
+.add-new{
+    cursor:pointer;
+    padding:5px;
+    background-color:#e2e0e0;
+    display:flex;
+    justify-content:space-between;
+
+}
+.tasks{
+    display:grid;
+    gap:10px;
+    padding:10px;
+
+}
+.tasks div{
+    background-color:#e2e0e0;
+    border:3px solid lightgreen;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+
+.options{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+#error-val{
+    color:red;
+}
